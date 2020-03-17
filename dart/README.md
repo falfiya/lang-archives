@@ -2,10 +2,10 @@
 
 Dart's syntax is fine. The types are fine. The entire language is just *fine*,
 which is actually pretty good considering that I usually have one or two gripes
-about the syntax. It's just that fine isn't good enough to warrant me learning
+about the syntax. It's just that "fine" isn't good enough to warrant me learning
 an entirely new ecosystem when it's basically TypeScript. If there was a
 significant performance increase, it might be worth it but the performance is
-somehow **worse** than just JavaScript in the benchmarks that I've seen.
+somehow **worse** JavaScript in the benchmarks that I've seen.
 
 I checked it out again because I heard of a tool called `dart2native` which
 directly emits x86_64. Compiling to native code sounded super cool but after

@@ -55,7 +55,6 @@ printeq :: proc(a, b, c: string) {
 
 
 placeholder :: proc(c: string) -> string {
-   // fmt.print("placeholder(", c, ");\n");
    return fmt.aprint(cyan, c);
 }
 
@@ -89,5 +88,4 @@ main :: proc() {
    c = format_int(read_int());
    clear();
    printeq(a, b, c);
-   fmt.println("lol solve it yourself. this was painful enough")
 }
