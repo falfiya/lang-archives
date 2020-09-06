@@ -1,0 +1,18 @@
+﻿<Window x:Name="WIND" x:Class="TextUtils.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextUtils"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300" ResizeMode="NoResize">
+  <Grid>
+    <Grid.ColumnDefinitions>
+    </Grid.ColumnDefinitions>
+    <RadioButton x:Name="radSerious" Content="Serious" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="radSerious_Checked" Height="15" Width="58" IsChecked="True" Margin="60,0,0,0"/>
+    <RadioButton x:Name="radSarcasm" Content="Sarcasm" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Center" Height="15" Width="63" Checked="radSarcasm_Checked"/>
+    <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="10,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" Grid.ColumnSpan="4" Height="112" TextChanged="txtInput_TextChanged" FontSize="14" FontFamily="Consolas"/>
+    <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,162,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" Grid.ColumnSpan="4" Height="112" FontFamily="Consolas" FontSize="14"/>
+
+  </Grid>
+</Window>
