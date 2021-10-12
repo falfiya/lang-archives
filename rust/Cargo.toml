@@ -1,0 +1,8 @@
+[package]
+name = "euler"
+version = "1.0.0"
+authors = ["Coalpha"]
+edition = "2018"
+
+[dependencies]
+primal = "0.2"
